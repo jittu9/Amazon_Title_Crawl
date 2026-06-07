@@ -33,5 +33,26 @@ python CODE/main.py
 - Pandas
 - OpenPyXL
 
+Amazon_Title_Crawl/
+│
+├── CODE/
+│   ├── main.py
+│   ├── scraper.py
+│   ├── config.py
+│   ├── driver_setup.py
+│   └── logger.py
+│
+├── SOURCE/
+│   └── amazon_asins.csv
+│
+├── OUTPUT/
+├── LOGS/ 
+│
+├── README.md
+├── requirements.txt
+├── .gitignore
+└── LICENSE
+
+
 ## Author
-Jitendra D.
+Jitendra Damu
