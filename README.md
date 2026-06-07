@@ -33,26 +33,33 @@ python CODE/main.py
 - Pandas
 - OpenPyXL
 
+## Project Structure
+
+```text
 Amazon_Title_Crawl/
 │
-├── CODE/
-│   ├── main.py
-│   ├── scraper.py
-│   ├── config.py
-│   ├── driver_setup.py
-│   └── logger.py
+├── CODE/                       # Application source code
+│   ├── main.py                 # Entry point
+│   ├── scraper.py              # Amazon scraping logic
+│   ├── driver_setup.py         # Selenium WebDriver configuration
+│   ├── config.py               # Global configuration and paths
+│   ├── logger.py               # Logging setup
+│   └── __init__.py
 │
-├── SOURCE/
+├── SOURCE/                     # Input files
 │   └── amazon_asins.csv
 │
-├── OUTPUT/
-├── LOGS/ 
+├── OUTPUT/                     # Generated Excel outputs
 │
-├── README.md
-├── requirements.txt
-├── .gitignore
-└── LICENSE
-
-
+├── LOGS/                       # Application logs
+│
+│
+├── README.md                   # Project documentation
+├── requirements.txt            # Python dependencies
+├── .gitignore                  # Git ignore rules
+├── LICENSE                     # MIT License
+├── CHANGELOG.md                # Version history
+└── CONTRIBUTING.md             # Contribution guidelines
+```
 ## Author
 Jitendra Damu
